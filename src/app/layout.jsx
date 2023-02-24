@@ -1,4 +1,5 @@
 import Header from '@/components/Header';
+import Navbar from '@/components/Navbar';
 import Provides from '@/components/Provides';
 import './globals.css';
 
@@ -10,6 +11,9 @@ export default function RootLayout({ children }) {
         <Provides>
           {/* Header */}
           <Header />
+
+          {/* Navbar */}
+          <Navbar />
 
           {children}
         </Provides>
